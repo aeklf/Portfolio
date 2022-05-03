@@ -113,6 +113,11 @@ p {
   margin-right: 5px;
 }
 
+header {
+  text-align: center;
+  font-size: 100px;
+}
+
 /* ABOUT */
 
 #profile {

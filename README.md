@@ -1,18 +1,19 @@
 # Portfolio
 
-Live Deployment: 
+Live Deployment: https://aeklf.github.io/Portfolio/
 
 ## About
-* Updated Portfolio featuring Project 1 and two exemplary homework assignments
 
-* (Linked) updated GitHub profile with pinned repositories
+- Updated Portfolio featuring Project 1 and two exemplary homework assignments
 
-* Updated Resume/About section
+- (Linked) updated GitHub profile with pinned repositories
 
-* Updated LinkedIn Profile
+- Updated Resume/About section
 
-* Downloadable PDF Version Available in WebApp
+- Updated LinkedIn Profile
 
-* Polished, user-friendly interface
+- Downloadable PDF Version Available in WebApp
 
-* Composed of HTML, CSS and JavaScript
+- Polished, user-friendly interface
+
+- Composed of HTML, CSS and JavaScript
