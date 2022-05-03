@@ -137,6 +137,10 @@ header {
 
 /* PROJECTS */
 
+#projectsh1 {
+  color: cornsilk;
+}
+
 .slides,
 .slides * {
   box-sizing: border-box;
