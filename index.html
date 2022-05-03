@@ -38,11 +38,28 @@
   <div id="projects" class="section">
       <div class="container">
         <h1>Projects</h1>
-        <ul>
-            <li>Bootcamp Project 1</li>
-            <li>Weather Dashboard</li>
-            <li>Calendar App</li>
-        </ul>
+        <div class="slides">
+            <input type="radio" name="s" id="radio1" checked/>
+            <div class="slide" id="slide1">
+              <label class="last" for="radio3">&lt;</label>
+              <label class="next" for="radio2">&gt;</label>
+              <a href="https://aeklf.github.io/BootcampProject01/" class="caption">Bootcamp Project</a>
+            </div>
+        
+            <input type="radio" name="s" id="radio2"/>
+            <div class="slide" id="slide2">
+              <label class="last" for="radio1">&lt;</label>
+              <label class="next" for="radio3">&gt;</label>
+              <a href="https://aeklf.github.io/WeatherDashboard/" class="caption">Weather Dashboard</a>
+            </div>
+        
+            <input type="radio" name="s" id="radio3"/>
+            <div class="slide" id="slide3">
+              <label class="last" for="radio2">&lt;</label>
+              <label class="next" for="radio1">&gt;</label>
+              <a href="https://aeklf.github.io/CalendarApp05/" class="caption">Calendar App</a>
+            </div>
+          </div>
       </div>
   </div>
   <div id="contact" class="section">
@@ -62,13 +79,11 @@
           <div class="rightContainer">
             <div class="rightInnerContainer">
               <form action="#">
-                  <h2 class="lg-view">Contact</h2>
-            <h2 class="sm-view">Message:</h2>
                 <input type="text" placeholder="Name *"  />
             <input type="email" placeholder="Email *" />
                   <input type="text" placeholder="Company" />
                   <input type="phone" placeholder="Phone" />
-                <textarea rows="4" placeholder="Message"></textarea>
+                <textarea rows="4" placeholder="Message * "></textarea>
                   <button>Submit</button>
               </form>
             </div>

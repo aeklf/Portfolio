@@ -131,6 +131,114 @@ header {
   margin-top: 5px;
 }
 
+/* PROJECTS */
+
+.slides,
+.slides * {
+  box-sizing: border-box;
+}
+.slides,
+.slide {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+}
+
+.slides {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slide {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#slide1 {
+  background-image: url("./images/Project1.jpeg");
+}
+
+#slide2 {
+  background-image: url("./images/Project2.jpeg");
+}
+
+#slide3 {
+  background-image: url("./images/Project3.jpeg");
+}
+
+.slide {
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s;
+}
+.slides input[type="radio"]:checked + .slide {
+  z-index: 2;
+  opacity: 1;
+  visibility: visible;
+}
+
+.slides input[type="radio"] {
+  display: none;
+}
+
+.last,
+.next {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s;
+}
+.last {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+
+.slides:hover .last,
+.slides:hover .next {
+  opacity: 1;
+  visibility: visible;
+}
+
+.caption {
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s;
+}
+
+.slides:hover .caption {
+  opacity: 1;
+  visibility: visible;
+}
+
 /* CONTACT FORM */
 .container {
   border-radius: 5px;
