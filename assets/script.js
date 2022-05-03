@@ -29,5 +29,6 @@ function isEmail(userEmail) {
    }
 
 function sendContact () {
-
+    // Future Dev: Send email function
 }
+
