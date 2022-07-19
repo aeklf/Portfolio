@@ -12,8 +12,6 @@ Live Deployment: https://aeklf.github.io/Portfolio/
 
 - Updated (Linked) LinkedIn Profile
 
-- Downloadable PDF Version Available in WebApp
-
 - Polished, user-friendly interface
 
 - Composed of HTML, CSS and JavaScript
